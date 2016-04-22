@@ -36,9 +36,7 @@ catalog.html
         <img src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
       </div>
     </main>
-    <div>
-    <h2>Средства для ухода</h2>
-    </div>
+    <h1>Средства для ухода</h1>
     <div class="breadcrumbs">
         <ul>
             <li>
@@ -48,86 +46,89 @@ catalog.html
             <a href="Магазин">Магазин</a>
             </li>
             <li>
-            <a href="Средства для ухода">Средства для ухода</a>
+           Средства для ухода
             </li>
          </ul>
     </div>
-    <div>
+    <div class="filter">
+		<form action="https://htmlacademy.ru" method="post">
          <h2>Производители</h2>                                   
               <ul>
                 <li>
-                BAXTER OF CALIFORNIA
+                <label><input type="checkbox" name="brand" checked>BAXTER OF CALIFORNIA</label>
                 </li>
                 <li>
-                MR NATTY
+                <label><input type="checkbox" name="brand">MR NATTY</label>
                 </li>
                 <li>
-                SUAVECITO
+                <label><input type="checkbox" name="brand" checked>SUAVECITO</label>
                 </li>
                 <li>
-                MALIN+GOETZ
+                <label><input type="checkbox" name="brand">MALIN+GOETZ</label>
                 </li>
                 <li>
-                MYRRAY'S
+                <label><input type="checkbox" name="brand">MYRRAY'S</label>
                 </li>
                 <li>
-                AMERICAN CREW
+                <label><input type="checkbox" name="brand" checked>AMERICAN CREW</label>
                 </li>
               </ul>
-    </div>
-      <div>
-         <h2>Группы товаров</h2>                                   
+         <h2>Группы товаров</h2>
               <ul>
                 <li>
-                Бритвенные принадлежности
+                <label><input type="radio" name="brand">Бритвенные принадлежности</label>
                 </li>
                 <li>
-                Средства для ухода
+                <label><input type="radio" name="brand" checked>Средства для ухода</label>
                 </li>
                 <li>
-                Аксессуары
+                <label><input type="radio" name="brand">Аксессуары</label>
                 </li>
               </ul>
+			<button type="submit">Показать</button>
+			</form>
     </div>                                  
     <article>
-		<figure class="catalog-item">
-		<img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для путешествий">
-			<button class="btn"></button>
-		</figure>
-		<button class="btn buy">Купить</button>
+		<img src="http://placehold.it/150x100" width="150" height="100" alt="">
+			<h3><a href="#"><span class="category">Набор для путешествий</span><br><span class="title">BAXTER OF CALIFORNIA</span></a></h3>
+		<div class="buy"><span class="price">2 900 руб.</span><a class="buy-button" href="#">Купить</a></div>
 		</article>
 		<article>
-		<figure class="catalog-item">
-		<img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для путешествий">
-			<button class="btn"></button>
-		</figure>
-		<button class="btn buy">Купить</button>
+		<img src="http://placehold.it/150x100" width="150" height="100" alt="">
+			<h3><a href="#"><span class="category">Увлажняющий кондиционер</span><br><span class="title">BAXTER OF CALIFORNIA</span></a></h3>
+		<div class="buy"><span class="price">750 руб.</span><a class="buy-button" href="#">Купить</a></div>
 			</article>
 		<article>
-       <figure class="catalog-item">
-		<img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для путешествий">
-			<button class="btn"></button>
-		</figure>
-		<button class="btn buy">Купить</button>
+       <img src="http://placehold.it/150x100" width="150" height="100" alt="">
+			<h3><a href="#"><span class="category">Гель для волос</span><br><span class="title">SUAVECITO</span></a></h3>
+		<div class="buy"><span class="price">290 руб.</span><a class="buy-button" href="#">Купить</a></div>
 		</article>
 		<article>
-		<figure class="catalog-item">
-		<img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для путешествий">
-			<button class="btn"></button>
-		</figure>
-		<button class="btn buy">Купить</button>
-        </article> 
+		<img src="http://placehold.it/150x100" width="150" height="100" alt="">
+			<h3><a href="#"><span class="category">Глина для укладки волос</span><br><span class="title">AMERICAN CREW</span></a></h3>
+		<div class="buy"><span class="price">500 руб.</span><a class="buy-button" href="#">Купить</a></div>
+        </article>
+		<article>
+			<img src="http://placehold.it/150x100" width="150" height="100" alt="">
+			<h3><a href="#"><span class="category">Гель для волос</span><br><span class="title">AMERICAN CREW</span></a></h3>
+		<div class="buy"><span class="price">300 руб.</span><a class="buy-button" href="#">Купить</a></div>
+		</article>
+		<article>
+			<img src="http://placehold.it/150x100" width="150" height="100" alt="">
+			<h3><a href="#"><span class="category">Набор для бритья</span><br><span class="title">BAXTER OF CALIFORNIA</span></a></h3>
+		<div class="buy"><span class="price">2 900 руб.</span><a class="buy-button" href="#">Купить</a></div>
+		</article>
            <article>
-               <button class="btn buy">1</button>
+               <button type="submit">1</button>
                </article>
             <article>
-               <button class="btn buy">2</button> 
+               <button type="submit">2</button> 
             </article>
             <article>
-              <button class="btn buy">3</button>  
+              <button type="submit">3</button>  
             </article>
             <article>
-              <button class="btn buy">4</button>  
+              <button type="submit">4</button>  
             </article>
     <footer class="main-footer">
       <div class="container">
